@@ -27,9 +27,7 @@ namespace WizardDefense
 		// Use this for initialization
 		void Start ()
 		{
-			AddPlatoon (_formations.RandomValue (), _platoons.Count);
-			_current = _formations.RandomValue ();
-			_currentFormationIndex = 0;
+			NextPlatoon ();
 
 			Bind ();
 		}
@@ -40,12 +38,9 @@ namespace WizardDefense
 				.Interval (TimeSpan.FromSeconds (_sortieInterval))
 				.Subscribe (_ =>
 				{
-					Debug.Log (_current.Point.Length + " " + _currentFormationIndex);
 					if (_current.Point.Length == _currentFormationIndex)
 					{
-						AddPlatoon (_formations.RandomValue (), _platoons.Count);
-						_current = _formations.RandomValue ();
-						_currentFormationIndex = 0;
+						NextPlatoon ();
 					}
 					if (_currentFormationIndex == 0)
 					{
@@ -66,6 +61,14 @@ namespace WizardDefense
 		void Update ()
 		{
 
+		}
+
+		private void NextPlatoon ()
+		{
+			var nextFormation = _formations.RandomValue ();
+			AddPlatoon (nextFormation, _platoons.Count);
+			_current = nextFormation;
+			_currentFormationIndex = 0;
 		}
 
 		private void AddPlatoon (Formation formation, int platoonsCount)
