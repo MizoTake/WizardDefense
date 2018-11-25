@@ -1,0 +1,3 @@
+[submodule "Assets/MomijiFramework"]
+	path = Assets/MomijiFramework
+	url = git@github.com:MizoTake/MomijiFramework.git
