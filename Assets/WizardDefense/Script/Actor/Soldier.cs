@@ -29,7 +29,6 @@ namespace WizardDefense
 			if (index == 0)
 			{
 				_nextPosition = platoon.NeutoralPosition;
-				transform.GetChild (0).GetComponent<MeshRenderer> ().material.color = Color.red;
 			}
 			else
 			{
