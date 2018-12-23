@@ -2,6 +2,8 @@
 
 ## Unity2018.x
 
+use stable new version
+
 ## Usage Assets
 
 - UniRx
