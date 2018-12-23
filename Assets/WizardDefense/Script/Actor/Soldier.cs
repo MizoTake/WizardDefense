@@ -6,7 +6,7 @@ using Zenject;
 
 namespace WizardDefense
 {
-	public partial class Soldier : MonoBehaviour, IFormationable
+	public partial class Soldier : MonoBehaviour
 	{
 		[SerializeField]
 		private SoldierSettings _parameter;

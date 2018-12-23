@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Zenject;
 
 namespace WizardDefense
 {
-	public class Castle : MonoBehaviour, ISortie
+	public partial class Castle : MonoBehaviour
 	{
 
 		[SerializeField]
@@ -13,6 +14,10 @@ namespace WizardDefense
 		[SerializeField]
 		private Transform _instancePoint;
 
+	}
+
+	public partial class Castle : ISortie
+	{
 		public void Sortie (Formation data, int index, Platoon platoon, Vector3? leaderPosition = null)
 		{
 			var soldier = Instantiate (_sortieObjects.RandomValue (), _instancePoint.position, Quaternion.identity);
