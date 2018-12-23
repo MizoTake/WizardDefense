@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using Zenject;
 
 namespace WizardDefense
 {
-	public class Soldier : MonoBehaviour, IParametable, IFormationable
+	public partial class Soldier : MonoBehaviour, IFormationable
 	{
 		[SerializeField]
 		private SoldierSettings _parameter;
@@ -15,27 +16,7 @@ namespace WizardDefense
 		private Transform _trackingLeader = null;
 		private Vector3 _nextPosition;
 
-		public SoldierSettings Parameter
-		{
-			get
-			{
-				return _parameter;
-			}
-		}
-
-		public void Formation (Formation data, int index, Platoon platoon)
-		{
-			_releativePos = data.RelativePosition (index);
-			if (index == 0)
-			{
-				_nextPosition = platoon.NeutoralPosition;
-			}
-			else
-			{
-				_trackingLeader = platoon.Member[0];
-				_nextPosition = _trackingLeader.position;
-			}
-		}
+		public class SoldierFactory : PlaceholderFactory<Soldier> { }
 
 		// Use this for initialization
 		void Start ()
@@ -54,6 +35,34 @@ namespace WizardDefense
 			else
 			{
 				_agent.destination = _nextPosition + _releativePos;
+			}
+		}
+	}
+
+	public partial class Soldier : IParametable
+	{
+		public SoldierSettings Parameter
+		{
+			get
+			{
+				return _parameter;
+			}
+		}
+	}
+
+	public partial class Soldier : IFormationable
+	{
+		public void Formation (Formation data, int index, Platoon platoon)
+		{
+			_releativePos = data.RelativePosition (index);
+			if (index == 0)
+			{
+				_nextPosition = platoon.NeutoralPosition;
+			}
+			else
+			{
+				_trackingLeader = platoon.Member[0];
+				_nextPosition = _trackingLeader.position;
 			}
 		}
 	}

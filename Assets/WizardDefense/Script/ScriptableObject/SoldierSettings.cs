@@ -8,5 +8,13 @@ namespace WizardDefense
 	{
 		public int HP;
 		public int ATK;
+		public float SearchDistance;
+		public SearchType Type;
+
+		public enum SearchType
+		{
+			NEAR,
+			FAR
+		}
 	}
 }

@@ -543,6 +543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sortieObjects:
   - {fileID: 1400354593806674, guid: 96676abd24ecca1479d04ab90e56a48d, type: 2}
+  - {fileID: 1317625520560252, guid: a5546f305c90b93448af4a6f47051667, type: 2}
   _instancePoint: {fileID: 2102644598}
 --- !u!4 &768229092
 Transform:
