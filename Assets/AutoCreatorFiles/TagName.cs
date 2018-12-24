@@ -28,13 +28,5 @@ public class TagName
 	/// return "GameController"
 	/// </summary>
 	public static string @GameController = GameController;
-	/// <summary>
-	/// return "asteroid"
-	/// </summary>
-	public static string @asteroid = asteroid;
-	/// <summary>
-	/// return "ship"
-	/// </summary>
-	public static string @ship = ship;
-	public static readonly string[] TAGS = new string[] { "Untagged", "Respawn", "Finish", "EditorOnly", "MainCamera", "Player", "GameController", "asteroid", "ship"};
+	public static readonly string[] TAGS = new string[] { "Untagged", "Respawn", "Finish", "EditorOnly", "MainCamera", "Player", "GameController"};
 }

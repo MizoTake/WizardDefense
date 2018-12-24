@@ -8,6 +8,10 @@ namespace WizardDefense
 {
 	public partial class Soldier : MonoBehaviour
 	{
+
+		[Inject]
+		private Soldier[] _soldiers;
+
 		[SerializeField]
 		private SoldierSettings _parameter;
 
@@ -15,8 +19,6 @@ namespace WizardDefense
 		private Vector3 _releativePos;
 		private Transform _trackingLeader = null;
 		private Vector3 _nextPosition;
-
-		public class SoldierFactory : PlaceholderFactory<Soldier> { }
 
 		// Use this for initialization
 		void Start ()
@@ -35,6 +37,24 @@ namespace WizardDefense
 			else
 			{
 				_agent.destination = _nextPosition + _releativePos;
+			}
+		}
+
+		public class Factory : PlaceholderFactory<int, Soldier>
+		{
+			private DiContainer _container;
+			private Soldier[] _soldiers;
+
+			[Inject]
+			public void Construct (Soldier[] soldiers, DiContainer container)
+			{
+				_container = container;
+				_soldiers = soldiers;
+			}
+
+			public Soldier Craete (int i)
+			{
+				return _container.InstantiatePrefab (_soldiers[i]).GetComponent<Soldier> ();
 			}
 		}
 	}

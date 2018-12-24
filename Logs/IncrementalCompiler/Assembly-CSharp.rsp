@@ -443,10 +443,12 @@
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/King.cs
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/Platoon.cs
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/Soldier.cs
+-i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Installer/GameInstaller.cs
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IControllable.cs
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IFormationable.cs
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IParametable.cs
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/ISortie.cs
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/ScriptableObject/Formation.cs
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/ScriptableObject/SoldierSettings.cs
+-i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Spawner/SoldierSpawner.cs
 -v:0
