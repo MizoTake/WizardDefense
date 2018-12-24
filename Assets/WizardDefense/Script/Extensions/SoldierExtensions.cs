@@ -7,16 +7,16 @@ namespace WizardDefense
 {
     public static class SoldierExtensions
     {
-        public static Soldier NearTarget (this IEnumerable<Soldier> collection, Soldier target)
+        public static Soldier NearTarget (this IEnumerable<Soldier> collection, Soldier from)
         {
             var result = collection.ToArray () [0];
             var minDistance = 1000f;
             collection.ForEach (_ =>
             {
-                var disX = Mathf.Abs (_.transform.position.x - target.transform.position.x);
-                var disZ = Mathf.Abs (_.transform.position.z - target.transform.position.z);
+                var disX = Mathf.Abs (_.transform.position.x - from.transform.position.x);
+                var disZ = Mathf.Abs (_.transform.position.z - from.transform.position.z);
                 var distance = Mathf.Sqrt (disX * disX + disZ * disZ);
-                result = (distance < minDistance && _ != target) ? _ : result;
+                result = (distance < minDistance && _ != from) ? _ : result;
             });
             return result;
         }
