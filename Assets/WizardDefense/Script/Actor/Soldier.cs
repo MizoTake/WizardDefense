@@ -40,7 +40,7 @@ namespace WizardDefense
 			{
 				_agent.destination = _nextPosition + _releativePos;
 			}
-			var target = BelongToCastle.Soldiers.NearSoldiers (this);
+			var target = BelongToCastle.Soldiers.NearTarget (this);
 			_nextPosition = target.transform.position;
 		}
 

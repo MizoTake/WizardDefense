@@ -7,7 +7,7 @@ namespace WizardDefense
 {
     public static class SoldierExtensions
     {
-        public static Soldier NearSoldiers (this IEnumerable<Soldier> collection, Soldier target)
+        public static Soldier NearTarget (this IEnumerable<Soldier> collection, Soldier target)
         {
             var result = collection.ToArray () [0];
             var minDistance = 1000f;
