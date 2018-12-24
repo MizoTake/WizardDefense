@@ -9,8 +9,8 @@ namespace WizardDefense
 	public partial class Soldier : MonoBehaviour
 	{
 
-		[Inject]
-		private Soldier[] _soldiers;
+		// [Inject]
+		// private Castle _castle;
 
 		[SerializeField]
 		private SoldierSettings _parameter;

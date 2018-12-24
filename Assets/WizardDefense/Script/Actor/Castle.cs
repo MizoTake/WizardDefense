@@ -17,6 +17,8 @@ namespace WizardDefense
 		[SerializeField]
 		private Transform _instancePoint;
 
+		private List<Soldier> _soldiers = new List<Soldier> ();
+
 	}
 
 	public partial class Castle : ISortie
@@ -25,6 +27,7 @@ namespace WizardDefense
 		{
 			// var soldier = Instantiate (_sortieObjects.RandomValue (), _instancePoint.position, Quaternion.identity);
 			var soldier = _spawner.Instantiate ();
+			_soldiers.Add (soldier);
 			platoon.AddMember (soldier.transform, index, leaderPosition);
 			soldier.GetComponent<IFormationable> ().Formation (data, index, platoon);
 		}

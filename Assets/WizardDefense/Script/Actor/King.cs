@@ -12,8 +12,10 @@ namespace WizardDefense
 	public class King : MonoBehaviour
 	{
 
-		[Inject]
-		private Castle _castle;
+		[Inject (Id = "PlayerCastle")]
+		private Castle _playerCastle;
+		[Inject (Id = "EnemyCastle")]
+		private Castle _enemyCastle;
 
 		[SerializeField]
 		private double _sortieInterval;
@@ -46,11 +48,11 @@ namespace WizardDefense
 					{
 						var pos = Vector3.zero.RandomX (-10, 10) + Vector3.zero.RandomZ (-10, 10);
 						pos.y = 1f;
-						_castle.Sortie (_current, _currentFormationIndex, _platoons.Last (), pos);
+						_playerCastle.Sortie (_current, _currentFormationIndex, _platoons.Last (), pos);
 					}
 					else
 					{
-						_castle.Sortie (_current, _currentFormationIndex, _platoons.Last ());
+						_playerCastle.Sortie (_current, _currentFormationIndex, _platoons.Last ());
 					}
 					_currentFormationIndex += 1;
 				})
