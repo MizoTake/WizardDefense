@@ -40,23 +40,7 @@ namespace WizardDefense
 			}
 		}
 
-		public class Factory : PlaceholderFactory<int, Soldier>
-		{
-			private DiContainer _container;
-			private Soldier[] _soldiers;
-
-			[Inject]
-			public void Construct (Soldier[] soldiers, DiContainer container)
-			{
-				_container = container;
-				_soldiers = soldiers;
-			}
-
-			public Soldier Craete (int i)
-			{
-				return _container.InstantiatePrefab (_soldiers[i]).GetComponent<Soldier> ();
-			}
-		}
+		public class Factory : PlaceholderFactory<Soldier> { }
 	}
 
 	public partial class Soldier : IParametable

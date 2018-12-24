@@ -10,8 +10,8 @@ namespace WizardDefense
 
         public override void InstallBindings ()
         {
-            Container.BindInterfacesTo<SoldierSpawner> ().AsSingle ();
-            Container.Bind<Soldier.Factory> ().AsSingle ().WithArguments (_soldierPrefab);
+            Container.Bind<SoldierSpawner> ().AsSingle ();
+            Container.BindFactory<Soldier, Soldier.Factory> ().FromComponentInNewPrefab (_soldierPrefab);
         }
     }
 }
