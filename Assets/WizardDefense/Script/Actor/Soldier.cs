@@ -20,6 +20,8 @@ namespace WizardDefense
 		private Transform _trackingLeader = null;
 		private Vector3 _nextPosition;
 
+		public Castle BelongToCastle { get; set; }
+
 		// Use this for initialization
 		void Start ()
 		{
@@ -38,6 +40,8 @@ namespace WizardDefense
 			{
 				_agent.destination = _nextPosition + _releativePos;
 			}
+			var target = BelongToCastle.Soldiers.NearSoldiers (this);
+			_nextPosition = target.transform.position;
 		}
 
 		public class Factory : PlaceholderFactory<Soldier> { }
