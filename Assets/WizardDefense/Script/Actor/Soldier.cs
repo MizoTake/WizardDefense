@@ -41,7 +41,7 @@ namespace WizardDefense
 				_agent.destination = _nextPosition + _releativePos;
 			}
 			var target = BelongToCastle.Soldiers.NearTarget (from: this);
-			_nextPosition = target.transform.position;
+			_nextPosition = (target != null) ? target.transform.position : _nextPosition;
 		}
 
 		public class Factory : PlaceholderFactory<Soldier> { }
