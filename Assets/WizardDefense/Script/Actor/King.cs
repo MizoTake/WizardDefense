@@ -17,6 +17,9 @@ namespace WizardDefense
 		[Inject (Id = "EnemyCastle")]
 		private Castle _enemyCastle;
 
+        [SerializeField]
+        private Color _color;
+
 		[SerializeField]
 		private double _sortieInterval;
 		[SerializeField]
@@ -48,11 +51,11 @@ namespace WizardDefense
 					{
 						var pos = Vector3.zero.RandomX (-10, 10) + Vector3.zero.RandomZ (-10, 10);
 						pos.y = 1f;
-						_playerCastle.Sortie (_current, _currentFormationIndex, _platoons.Last (), pos);
+						_playerCastle.Sortie (_current, _currentFormationIndex, _platoons.Last (), pos, color: _color);
 					}
 					else
 					{
-						_playerCastle.Sortie (_current, _currentFormationIndex, _platoons.Last ());
+						_playerCastle.Sortie (_current, _currentFormationIndex, _platoons.Last (), color: _color);
 					}
 					_currentFormationIndex += 1;
 				})

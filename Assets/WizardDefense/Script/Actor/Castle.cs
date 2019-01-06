@@ -28,10 +28,14 @@ namespace WizardDefense
 
 	public partial class Castle : ISortie
 	{
-		public void Sortie (Formation data, int index, Platoon platoon, Vector3? leaderPosition = null)
+		public void Sortie (Formation data, int index, Platoon platoon, Vector3? leaderPosition = null, Color? color = null)
 		{
 			// var soldier = Instantiate (_sortieObjects.RandomValue (), _instancePoint.position, Quaternion.identity);
 			var soldier = _spawner.Instantiate ();
+            if(color != null)
+            {
+                soldier.Renderer.materials[1].color = color.Value;
+            }
 			soldier.BelongToCastle = this;
 			platoon.AddMember (soldier.transform, index, leaderPosition);
 			soldier.GetComponent<IFormationable> ().Formation (data, index, platoon);

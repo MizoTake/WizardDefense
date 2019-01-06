@@ -2,236 +2,236 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:F:/UnityProject/WizardDefense/Temp/Assembly-CSharp.dll
+-out:C:/Users/mizot/UnityProject/WizardDefense/Temp/Assembly-CSharp.dll
 -nostdlib
 -unsafe
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEditor.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/Unity.Locator.dll"
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Properties.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.Codegen.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Jobs.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Jobs.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Collections.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Burst.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-ReflectionBaking-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.Async.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Mathematics.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.Async.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Burst.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-PoolMonitor-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.TextMeshPro.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
--r:F:/UnityProject/WizardDefense/Assets/Demigiant/DOTween/DOTween.dll
--r:F:/UnityProject/WizardDefense/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll
--r:F:/UnityProject/WizardDefense/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll
--r:F:/UnityProject/WizardDefense/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll
--r:F:/UnityProject/WizardDefense/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll
--r:F:/UnityProject/WizardDefense/Assets/Plugins/Zenject/Source/Usage/Zenject-usage.dll
--r:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll
--r:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
--r:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
--r:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.collections@0.0.9-preview.10/System.Runtime.CompilerServices.Unsafe.dll
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.BaselibModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.HotReloadModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.LocalizationModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SubstanceModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TLSModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextCoreModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.TimelineModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UmbraModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VFXModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/UnityEditor.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\Managed/Unity.Locator.dll"
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Properties.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.Codegen.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Jobs.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Jobs.Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Collections.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Burst.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-ReflectionBaking-Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.Async.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Mathematics.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.Async.Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Burst.Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-PoolMonitor-Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:C:/Users/mizot/UnityProject/WizardDefense/Assets/Demigiant/DOTween/DOTween.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Assets/Plugins/Zenject/Source/Usage/Zenject-usage.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll
+-r:C:/Users/mizot/UnityProject/WizardDefense/Library/PackageCache/com.unity.collections@0.0.9-preview.10/System.Runtime.CompilerServices.Unsafe.dll
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Numerics.Vectors.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Net.Http.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Data.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\Microsoft.Win32.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\netstandard.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.AppContext.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Concurrent.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.NonGeneric.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Collections.Specialized.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Annotations.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.EventBasedAsync.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ComponentModel.TypeConverter.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Console.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Data.Common.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Contracts.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Debug.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.FileVersionInfo.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Process.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.StackTrace.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.Tools.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Diagnostics.TraceSource.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Drawing.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Dynamic.Runtime.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Calendars.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Globalization.Extensions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Compression.ZipFile.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.DriveInfo.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.FileSystem.Watcher.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.IsolatedStorage.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.MemoryMappedFiles.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.Pipes.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.IO.UnmanagedMemoryStream.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Expressions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Parallel.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Linq.Queryable.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Http.Rtc.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NameResolution.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.NetworkInformation.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Ping.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Requests.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Security.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.Sockets.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebHeaderCollection.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.Client.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Net.WebSockets.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ObjectModel.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.ILGeneration.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Emit.Lightweight.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Extensions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Reflection.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Reader.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.ResourceManager.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Resources.Writer.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Extensions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Handles.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Numerics.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Formatters.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Json.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Runtime.Serialization.Xml.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Claims.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Algorithms.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Csp.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Encoding.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Cryptography.X509Certificates.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.Principal.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Security.SecureString.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Duplex.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Http.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.NetTcp.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Primitives.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ServiceModel.Security.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.Encoding.Extensions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Text.RegularExpressions.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Overlapped.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Tasks.Parallel.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Thread.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.ThreadPool.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Threading.Timer.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.ValueTuple.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.ReaderWriter.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XDocument.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlDocument.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XmlSerializer.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Facades\System.Xml.XPath.XDocument.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\unityscript\Boo.Lang.dll"
 -d:UNITY_5_3_OR_NEWER
 -d:UNITY_5_4_OR_NEWER
 -d:UNITY_5_5_OR_NEWER
@@ -331,125 +331,125 @@
 -d:UNITY_TEAM_LICENSE
 -d:CSHARP_7_OR_LATER
 -d:CSHARP_7_3_OR_NEWER
--i:F:/UnityProject/WizardDefense/Assets/AutoCreatorFiles/AudioEnums.cs
--i:F:/UnityProject/WizardDefense/Assets/AutoCreatorFiles/LayerEnum.cs
--i:F:/UnityProject/WizardDefense/Assets/AutoCreatorFiles/SceneInfo.cs
--i:F:/UnityProject/WizardDefense/Assets/AutoCreatorFiles/TagName.cs
--i:F:/UnityProject/WizardDefense/Assets/CutMaskShader/Mask/Scripts/Move.cs
--i:F:/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs
--i:F:/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs
--i:F:/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs
--i:F:/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs
--i:F:/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs
--i:F:/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs
--i:F:/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Example/SampleRequest/Scripts/Requester.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Example/SampleRequest/Scripts/Sample/SampleMockRequest.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Example/SampleRequest/Scripts/Sample/SampleParamter.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Example/SampleRequest/Scripts/Sample/SampleRequest.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Example/SampleRequest/Scripts/Sample/SampleResponse.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/ErrorRequestable.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Interface/IParameterizable.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Interface/IResponsible.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Method/DeleteRequestable.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Method/GetRequestable.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Method/PostRequestable.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Method/PutRequestable.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/MockRequestable.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Requestable.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Behaviour/NextScene.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Controller/RxGesture.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Data/SoundParameter.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/CollectionExtension.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/EnumExtensions.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/StringExtension.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/TransformExtensions.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/Vector3Extensions.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/VectorExtension.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Manager/HistoryManager.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Manager/TransSceneManager.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Pool/Pool.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/UI/CanvasReload.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/UI/FadeView.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/UI/Popup/BasePopupView.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/UI/Popup/Popup.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/UI/ScrollView/Base/TableView.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/UI/ScrollView/Cell/Cell.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Utility/JsonFile.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Utility/LoadResources.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Utility/Singleton.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Utility/Sound/SoundPlay.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Utility/Sound/SoundPlayer.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Attributes.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/AnonymousFormatter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/CollectionFormatters.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/DateTimeFormatter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/DictionaryFormatter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/DynamicObjectTypeFallbackFormatter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/EnumFormatter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/IgnoreFormatter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/MultiDimentionalArrayFormatter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/NullableFormatter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/PrimitiveFormatter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/PrimitiveObjectFormatter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/StandardClassLibraryFormatters.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/TupleFormatter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/ValueTupleFormatter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/IJsonFormatter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/IJsonFormatterResolver.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/ArrayBuffer.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/ArrayPool.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/AutomataDictionary.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/BinaryUtil.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/ByteArrayComparer.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/ByteArrayStringHashTable.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/DoubleConversion/DiyFp.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/DoubleConversion/DoubleToStringConverter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/DoubleConversion/IEEE.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/DoubleConversion/PowersOfTenCache.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/DoubleConversion/StringToDouble.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/DoubleConversion/StringToDoubleConverter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/Emit/DynamicAssembly.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/Emit/ExpressionUtility.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/Emit/ILGeneratorExtensions.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/Emit/ILViewer.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/Emit/MetaMember.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/Emit/MetaType.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/FarmHash.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/FuncExtensions.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/GuidBits.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/NumberConverter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/ReflectionExtensions.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/StringEncoding.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/StringMutator.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/ThreadsafeTypeKeyHashTable.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/UnsafeMemory.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/UnsafeMemory.Low.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/JsonReader.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/JsonSerializer.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/JsonSerializer.NonGeneric.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/JsonToken.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/JsonWriter.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/AttributeFormatterResolver.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/BuiltinResolver.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/CompositeResolver.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/DynamicGenericResolver.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/DynamicObjectResolver.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/EnumResolver.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/StandardResolver.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Shims/Reflection.cs
--i:F:/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Unity/ResolverAndFormatters.cs
--i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/Castle.cs
--i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/King.cs
--i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/Platoon.cs
--i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/Soldier.cs
--i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Extensions/SoldierExtensions.cs
--i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Installer/GameInstaller.cs
--i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IControllable.cs
--i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IFormationable.cs
--i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IParametable.cs
--i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/ISortie.cs
--i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/ScriptableObject/Formation.cs
--i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/ScriptableObject/SoldierSettings.cs
--i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Spawner/SoldierSpawner.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/AutoCreatorFiles/AudioEnums.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/AutoCreatorFiles/LayerEnum.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/AutoCreatorFiles/SceneInfo.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/AutoCreatorFiles/TagName.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/CutMaskShader/Mask/Scripts/Move.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Example/SampleRequest/Scripts/Requester.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Example/SampleRequest/Scripts/Sample/SampleMockRequest.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Example/SampleRequest/Scripts/Sample/SampleParamter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Example/SampleRequest/Scripts/Sample/SampleRequest.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Example/SampleRequest/Scripts/Sample/SampleResponse.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/ErrorRequestable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Interface/IParameterizable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Interface/IResponsible.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Method/DeleteRequestable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Method/GetRequestable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Method/PostRequestable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Method/PutRequestable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/MockRequestable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/APIClient/Requestable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Behaviour/NextScene.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Controller/RxGesture.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Data/SoundParameter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/CollectionExtension.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/EnumExtensions.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/StringExtension.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/TransformExtensions.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/Vector3Extensions.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/VectorExtension.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Manager/HistoryManager.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Manager/TransSceneManager.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Pool/Pool.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/UI/CanvasReload.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/UI/FadeView.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/UI/Popup/BasePopupView.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/UI/Popup/Popup.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/UI/ScrollView/Base/TableView.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/UI/ScrollView/Cell/Cell.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Utility/JsonFile.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Utility/LoadResources.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Utility/Singleton.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Utility/Sound/SoundPlay.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Utility/Sound/SoundPlayer.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Attributes.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/AnonymousFormatter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/CollectionFormatters.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/DateTimeFormatter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/DictionaryFormatter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/DynamicObjectTypeFallbackFormatter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/EnumFormatter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/IgnoreFormatter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/MultiDimentionalArrayFormatter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/NullableFormatter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/PrimitiveFormatter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/PrimitiveObjectFormatter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/StandardClassLibraryFormatters.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/TupleFormatter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Formatters/ValueTupleFormatter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/IJsonFormatter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/IJsonFormatterResolver.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/ArrayBuffer.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/ArrayPool.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/AutomataDictionary.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/BinaryUtil.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/ByteArrayComparer.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/ByteArrayStringHashTable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/DoubleConversion/DiyFp.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/DoubleConversion/DoubleToStringConverter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/DoubleConversion/IEEE.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/DoubleConversion/PowersOfTenCache.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/DoubleConversion/StringToDouble.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/DoubleConversion/StringToDoubleConverter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/Emit/DynamicAssembly.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/Emit/ExpressionUtility.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/Emit/ILGeneratorExtensions.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/Emit/ILViewer.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/Emit/MetaMember.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/Emit/MetaType.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/FarmHash.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/FuncExtensions.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/GuidBits.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/NumberConverter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/ReflectionExtensions.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/StringEncoding.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/StringMutator.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/ThreadsafeTypeKeyHashTable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/UnsafeMemory.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Internal/UnsafeMemory.Low.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/JsonReader.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/JsonSerializer.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/JsonSerializer.NonGeneric.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/JsonToken.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/JsonWriter.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/AttributeFormatterResolver.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/BuiltinResolver.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/CompositeResolver.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/DynamicGenericResolver.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/DynamicObjectResolver.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/EnumResolver.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Resolvers/StandardResolver.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Shims/Reflection.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/Scripts/Utf8Json/Unity/ResolverAndFormatters.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/Castle.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/King.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/Platoon.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/Soldier.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Extensions/SoldierExtensions.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Installer/GameInstaller.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IControllable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IFormationable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IParametable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/ISortie.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/ScriptableObject/Formation.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/ScriptableObject/SoldierSettings.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Spawner/SoldierSpawner.cs
 -v:0

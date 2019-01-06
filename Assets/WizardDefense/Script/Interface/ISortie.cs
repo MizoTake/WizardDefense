@@ -6,6 +6,6 @@ namespace WizardDefense
 {
 	public interface ISortie
 	{
-		void Sortie (Formation data, int index, Platoon platoon, Vector3? leaderPosition = null);
+		void Sortie (Formation data, int index, Platoon platoon, Vector3? leaderPosition = null, Color? color = null);
 	}
 }

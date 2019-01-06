@@ -15,12 +15,16 @@ namespace WizardDefense
 		[SerializeField]
 		private SoldierSettings _parameter;
 
+        [SerializeField]
+        private MeshRenderer _renderer;
+
 		private NavMeshAgent _agent;
 		private Vector3 _releativePos;
 		private Transform _trackingLeader = null;
 		private Vector3 _nextPosition;
 
 		public Castle BelongToCastle { get; set; }
+        public MeshRenderer Renderer {  get { return _renderer; } }
 
 		// Use this for initialization
 		void Start ()
