@@ -115,7 +115,6 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.3.0f2/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
--r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
 -r:C:/Users/mizot/UnityProject/WizardDefense/Assets/Demigiant/DOTween/DOTween.dll
 -r:C:/Users/mizot/UnityProject/WizardDefense/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll
 -r:C:/Users/mizot/UnityProject/WizardDefense/Assets/Plugins/Zenject/OptionalExtras/ReflectionBaking/Lib/Zenject.ReflectionBaking.Mono.Cecil.dll
@@ -135,6 +134,7 @@
 -r:C:/Users/mizot/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Pdb.dll
 -r:C:/Users/mizot/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll
 -r:C:/Users/mizot/UnityProject/WizardDefense/Library/PackageCache/com.unity.purchasing@2.0.3/Editor/UnityEditor.Purchasing.dll
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.3.0f2\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\System.Core.dll"
@@ -350,6 +350,7 @@
 -d:ENABLE_UNITY_COLLECTIONS_CHECKS
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
+-d:ENABLE_VSTU
 -d:CSHARP_7_OR_LATER
 -d:CSHARP_7_3_OR_NEWER
 -i:C:/Users/mizot/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/AudioEnumCreator.cs

@@ -329,6 +329,7 @@
 -d:ENABLE_UNITY_COLLECTIONS_CHECKS
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
+-d:ENABLE_VSTU
 -d:CSHARP_7_OR_LATER
 -d:CSHARP_7_3_OR_NEWER
 -i:C:/Users/mizot/UnityProject/WizardDefense/Assets/AutoCreatorFiles/AudioEnums.cs
@@ -446,6 +447,7 @@
 -i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Extensions/SoldierExtensions.cs
 -i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Installer/GameInstaller.cs
 -i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IControllable.cs
+-i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IDamage.cs
 -i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IFormationable.cs
 -i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IParametable.cs
 -i:C:/Users/mizot/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/ISortie.cs

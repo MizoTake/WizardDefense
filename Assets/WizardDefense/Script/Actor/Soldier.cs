@@ -13,7 +13,7 @@ namespace WizardDefense
 		// private Castle _castle;
 
 		[SerializeField]
-		private SoldierSettings _parameter;
+		private SoldierSettings _parameter; // readonly?
 
         [SerializeField]
         private MeshRenderer _renderer;
@@ -46,12 +46,25 @@ namespace WizardDefense
 			}
 			var target = BelongToCastle.Soldiers.NearTarget (from: this);
 			_nextPosition = (target != null) ? target.transform.position : _nextPosition;
+			var targetDis = Vector3.Distance(transform.position, target.transform.position);
+			if(targetDis <= 100)
+			{
+				
+			}
 		}
 
 		public class Factory : PlaceholderFactory<Soldier> { }
 	}
 
-	public partial class Soldier : IParametable
+    public partial class Soldier : IDamagable
+    {
+        public void Damage(int value)
+        {
+            _parameter.HP -= value;
+        }
+    }
+
+    public partial class Soldier : IParametable
 	{
 		public SoldierSettings Parameter
 		{
