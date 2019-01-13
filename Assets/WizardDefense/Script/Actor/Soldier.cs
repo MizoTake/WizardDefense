@@ -9,18 +9,15 @@ namespace WizardDefense
 {
 	public partial class Soldier : MonoBehaviour
 	{
-
-		// [Inject]
-		// private Castle _castle;
-
-		[SerializeField]
-		private SoldierSettings _parameter; // readonly?
+		[Inject]
+		private readonly SoldierSettings _masterParameter;
 
 		[SerializeField]
 		private MeshRenderer _renderer;
 		[SerializeField]
 		private TextMeshPro _previewHP;
 
+		private SoldierSettings _parameter;
 		private NavMeshAgent _agent;
 		private Vector3 _releativePos;
 		private Transform _trackingLeader = null;
@@ -33,6 +30,7 @@ namespace WizardDefense
 		void Start ()
 		{
 			_agent = GetComponent<NavMeshAgent> ();
+			_parameter = Instantiate (_masterParameter);
 		}
 
 		// Update is called once per frame
@@ -52,6 +50,7 @@ namespace WizardDefense
 			{
 				_nextPosition = target.transform.position;
 				var targetDis = Vector3.Distance (transform.position, target.transform.position);
+				// TODO: 後で定数化
 				if (targetDis <= 100)
 				{
 					target.Damage (_parameter.ATK);
@@ -72,9 +71,9 @@ namespace WizardDefense
 			_parameter.HP -= value;
 			if (_parameter.HP <= 0)
 			{
+				BelongToCastle.Remove (this);
 				Destroy (this.gameObject);
 			}
-			Debug.Log (_parameter.HP);
 		}
 	}
 

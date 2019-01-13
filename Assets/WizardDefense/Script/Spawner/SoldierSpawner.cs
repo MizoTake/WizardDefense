@@ -22,5 +22,10 @@ namespace WizardDefense
             _instancedSoldiers.Add (soldier);
             return soldier;
         }
+
+        public void Remove (Soldier target)
+        {
+            _instancedSoldiers.Remove (target);
+        }
     }
 }

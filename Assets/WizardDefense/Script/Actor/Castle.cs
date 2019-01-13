@@ -26,6 +26,8 @@ namespace WizardDefense
 				return _spawner.InstancedSoldiers;
 			}
 		}
+
+		public void Remove (Soldier target) => _spawner.Remove (target);
 	}
 
 	public partial class Castle : ISortie
