@@ -7,7 +7,7 @@ namespace WizardDefense
 {
 	public class Platoon
 	{
-		public Transform[] Member { get; private set; }
+		public List<Transform> Member { get; private set; } = new List<Transform> ();
 		public Formation Formation { get; private set; }
 		public int Index { get; private set; }
 		public Vector3 NeutoralPosition { get; private set; }
@@ -15,7 +15,8 @@ namespace WizardDefense
 		{
 			get
 			{
-				return Member.First ().position;
+				var result = Member.Where (_ => _ != null).First ();
+				return result.position;
 			}
 		}
 
@@ -23,16 +24,24 @@ namespace WizardDefense
 		{
 			this.Formation = formation;
 			this.Index = index;
-			Member = new Transform[formation.Point.Length];
 		}
 
 		public void AddMember (Transform newMember, int index, Vector3? nuetoralPosition)
 		{
-			Member[index] = newMember;
+			Member.Add (newMember);
 			if (index == 0)
 			{
 				this.NeutoralPosition = nuetoralPosition.Value;
 			}
+		}
+
+		public void RemoveMember (Transform member)
+		{
+			if (Member.IndexOf (member) == 0)
+			{
+				this.NeutoralPosition = member.transform.position;
+			}
+			Member.Remove (member);
 		}
 	}
 }

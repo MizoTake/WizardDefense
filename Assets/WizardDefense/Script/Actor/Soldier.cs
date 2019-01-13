@@ -100,7 +100,7 @@ namespace WizardDefense
 			else
 			{
 				_trackingLeader = platoon.Member[0];
-				_nextPosition = _trackingLeader.position;
+				_nextPosition = platoon.LeaderPosition;
 			}
 		}
 	}
