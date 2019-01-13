@@ -4,8 +4,8 @@ using UnityEngine;
 
 namespace WizardDefense
 {
-    public interface IDamagable
+    public interface IDamageable
     {
-        void Damage(int value);
+        void Damage (int value);
     }
 }

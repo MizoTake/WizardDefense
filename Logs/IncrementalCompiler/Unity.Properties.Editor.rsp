@@ -2,10 +2,10 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:F:/UnityProject/WizardDefense/Temp/Assembly-CSharp-Editor.dll
+-out:F:/UnityProject/WizardDefense/Temp/Unity.Properties.Editor.dll
 -nostdlib
 -unsafe
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Assembly-CSharp.dll
+-r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.dll
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -69,41 +69,8 @@
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEditor.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/Unity.Locator.dll"
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Properties.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.Codegen.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Jobs.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Jobs.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Collections.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Burst.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-ReflectionBaking-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.Async.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Mathematics.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.Async.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Burst.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-PoolMonitor-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.TextMeshPro.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
@@ -351,13 +318,27 @@
 -d:UNITY_TEAM_LICENSE
 -d:CSHARP_7_OR_LATER
 -d:CSHARP_7_3_OR_NEWER
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/AudioEnumCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/LayerEnumCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/SceneInfoCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/TagNameCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/BuildBatch.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/CreateScriptableObjectMenu.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/CreateUseLicenseFile.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/EditorExtensionConst.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/MomijPostprocesser.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/Generation/CSharp/CSharpContainerGenerator.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/Generation/CSharp/CSharpGenerationBackend.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/Generation/CSharp/CSharpGenerationCache.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/Generation/GenerationBackend.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/Generation/IL/CecilGenerationBackend.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/Internal/Editor/CodeGenEditor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/Internal/Editor/JsonGenEditor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/Introspection/IntrospectedPropertyDefinition.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/Introspection/ReflectionPropertyTree.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/Introspection/RoslynPropertyTypeNode.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/Json/JsonSchema.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/Json/JsonSchemaBuilder.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/Json/Validator/JsonSchemaValidator.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/PropertyTree/IContainerTypeTreeVisitor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/PropertyTree/IPropertyTypeNodeDeserializer.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/PropertyTree/IPropertyTypeNodeSerialiser.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/PropertyTree/PropertyTypeNode.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/PropertyTree/PropertyTypeNodeJsonSerializer.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/PropertyTree/Resolver/ContainerTypeCollector.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/PropertyTree/Resolver/ContainerTypeTreePath.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/PropertyTree/Resolver/TypeResolver.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/PropertyTree/UserHookFlags.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.properties@0.2.11-preview/Editor/Serialization/ReferenceAssemblies.cs
 -v:0

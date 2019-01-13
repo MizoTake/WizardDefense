@@ -2,10 +2,10 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:F:/UnityProject/WizardDefense/Temp/Assembly-CSharp-Editor.dll
+-out:F:/UnityProject/WizardDefense/Temp/Unity.TextMeshPro.Editor.dll
 -nostdlib
 -unsafe
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Assembly-CSharp.dll
+-r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -69,41 +69,8 @@
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEditor.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/Unity.Locator.dll"
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Properties.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.Codegen.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Jobs.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Jobs.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Collections.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Burst.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-ReflectionBaking-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.Async.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Mathematics.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.Async.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Burst.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-PoolMonitor-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.TextMeshPro.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
@@ -351,13 +318,44 @@
 -d:UNITY_TEAM_LICENSE
 -d:CSHARP_7_OR_LATER
 -d:CSHARP_7_3_OR_NEWER
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/AudioEnumCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/LayerEnumCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/SceneInfoCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/TagNameCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/BuildBatch.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/CreateScriptableObjectMenu.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/CreateUseLicenseFile.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/EditorExtensionConst.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/MomijPostprocesser.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/DropdownOptionListDrawer.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/EditorCoroutine.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/GlyphInfoDrawer.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/KerningPairDrawer.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/SpriteInfoDrawer.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TextAlignmentDrawer.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_BaseEditorPanel.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_BaseShaderGUI.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_BitmapShaderGUI.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_ColorGradientAssetMenu.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_ColorGradientEditor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_DropdownEditor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_EditorPanel.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_EditorUtility.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_FontAssetEditor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_InputFieldEditor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_MeshRendererEditor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_PackageUtilities.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_PostBuildProcessHandler.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_ProjectTextSettings.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_ResourcesLoader.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SDFShaderGUI.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SettingsEditor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SpriteAssetEditor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SpriteAssetImporter.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SpriteAssetMenu.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_StyleAssetMenu.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_StyleSheetEditor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SubMesh_Editor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_SubMeshUI_Editor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_UiEditorPanel.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMP_UIStyleManager.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_ContextMenus.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_CreateObjectMenu.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_EditorShaderUtilities.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontAssetCreatorWindow.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_FontPlugin.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_SortingLayerHelper.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_TextContainerEditor.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Editor/TMPro_TexturePostProcessor.cs
 -v:0

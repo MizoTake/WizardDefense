@@ -2,10 +2,12 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:F:/UnityProject/WizardDefense/Temp/Assembly-CSharp-Editor.dll
+-out:F:/UnityProject/WizardDefense/Temp/Unity.Entities.dll
 -nostdlib
 -unsafe
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Assembly-CSharp.dll
+-r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Collections.dll
+-r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Burst.dll
+-r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Mathematics.dll
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -36,7 +38,6 @@
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
@@ -69,41 +70,8 @@
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEditor.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/Unity.Locator.dll"
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Properties.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.Codegen.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Jobs.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Jobs.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Collections.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Burst.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-ReflectionBaking-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.Async.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Mathematics.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.Async.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Burst.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-PoolMonitor-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.TextMeshPro.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
@@ -351,13 +319,62 @@
 -d:UNITY_TEAM_LICENSE
 -d:CSHARP_7_OR_LATER
 -d:CSHARP_7_3_OR_NEWER
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/AudioEnumCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/LayerEnumCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/SceneInfoCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/TagNameCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/BuildBatch.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/CreateScriptableObjectMenu.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/CreateUseLicenseFile.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/EditorExtensionConst.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/MomijPostprocesser.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/AlwaysUpdateSystemAttribute.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/ArchetypeManager.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/AssemblyInfo.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/BinarySerialization.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/ChangeVersionUtility.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/ChunkAllocator.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/ChunkDataUtility.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/ChunkListMap.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/ComponentJobManager.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/ComponentSystem.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/CopyUtility.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/DisallowRefReturnCrossingThisAttribute.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/EndFrameBarrier.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/EntityCommandBuffer.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/EntityDataManager.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/EntityManager.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/EntityRemapUtility.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/ExclusiveEntityTransaction.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/HashUtility.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/IComponentData.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/IJobChunk.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/IJobProcessComponentData.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Injection/ComponentSystemInjection.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Injection/InjectAttribute.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Injection/InjectComponentFromEntity.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Injection/InjectComponentGroup.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Injection/InjectionData.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Injection/InjectionHook.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Injection/World.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Injection/WorldDebuggingTools.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/ArchetypeChunkArray.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/BufferArray.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/BufferFromEntity.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/ComponentChunkIterator.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/ComponentDataArray.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/ComponentDataFromEntity.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/ComponentGroup.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/ComponentGroupArray.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/DynamicBuffer.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/EntityArray.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/EntityGroupManager.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Iterators/SharedComponentDataArray.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/SceneViewWorldPositionAttribute.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/ScriptBehaviourManager.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/ScriptBehaviourUpdateOrder.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/SerializeUtility.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/SharedComponentManager.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/SortingUtilities.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Stubs/Unity.Assertions/Assert.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Stubs/Unity/Debug.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Stubs/Unity/ProfilerMarker.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Types/BufferHeader.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Types/CalculateReaderWriterDependency.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Types/ComponentType.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Types/FastEquality.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Types/TypeManager.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/Types/VoidSystemComponent.cs
+-i:F:/UnityProject/WizardDefense/Library/PackageCache/com.unity.entities@0.0.12-preview.21/Unity.Entities/UnsafeLinkedListNode.cs
 -v:0

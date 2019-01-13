@@ -2,10 +2,9 @@
 -target:library
 -nowarn:0169
 -langversion:7
--out:F:/UnityProject/WizardDefense/Temp/Assembly-CSharp-Editor.dll
+-out:F:/UnityProject/WizardDefense/Temp/UniRx.Async.dll
 -nostdlib
 -unsafe
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Assembly-CSharp.dll
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -36,7 +35,6 @@
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ProfilerModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
--r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpatialTrackingModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.StreamingModule.dll"
@@ -69,41 +67,8 @@
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/UnityEditor.dll"
 -r:"D:\Program Files\2018.3.0f2\Editor\Data\Managed/Unity.Locator.dll"
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Properties.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.Codegen.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Jobs.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Jobs.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Collections.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Burst.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-ReflectionBaking-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Properties.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.Async.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Mathematics.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/UniRx.Async.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Entities.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Burst.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject-PoolMonitor-Editor.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.TextMeshPro.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Zenject.dll
--r:F:/UnityProject/WizardDefense/Library/ScriptAssemblies/Unity.Transforms.Hybrid.dll
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
--r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
 -r:"D:/Program Files/2018.3.0f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
@@ -351,13 +316,92 @@
 -d:UNITY_TEAM_LICENSE
 -d:CSHARP_7_OR_LATER
 -d:CSHARP_7_3_OR_NEWER
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/AudioEnumCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/LayerEnumCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/SceneInfoCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/AutoCreator/TagNameCreator.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/BuildBatch.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/CreateScriptableObjectMenu.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/CreateUseLicenseFile.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/EditorExtensionConst.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Editor/MomijPostprocesser.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/AsyncUnit.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/CancellationTokenEqualityComparer.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/CancellationTokenExtensions.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/CancellationTokenSourceExtensions.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/CompilerServices/AsyncMethodBuilderAttribute.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/CompilerServices/AsyncUniTaskMethodBuilder.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/CompilerServices/AsyncUniTaskVoidMethodBuilder.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/CompilerServices/MoveNextRunner.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/DiagnosticsExtensions.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/EnumerableAsyncExtensions.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/EnumeratorAsyncExtensions.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/IAwaiter.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/ArrayPool.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/ArrayPoolUtil.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/ArrayUtil.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/CancellationTokenHelper.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/ContinuationQueue.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/Error.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/Hack.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/LazyPromise.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/MinimumQueue.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/PlayerLoopRunner.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/PromiseHelper.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/ReusablePromise.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/RuntimeHelpersAbstraction.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/TaskTracker.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Internal/WeakDictionary.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/PlayerLoopHelper.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Progress.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncAnimatorTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncAwakeTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncBeginDragTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncCancelTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncCanvasGroupChangedTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncCollision2DTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncCollisionTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncDeselectTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncDestroyTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncDragTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncDropTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncEnableDisableTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncEndDragTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncEventTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncFixedUpdateTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncInitializePotentialDragTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncJointTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncLateUpdateTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncMouseTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncMoveTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncParticleTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncPointerClickTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncPointerDownTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncPointerEnterTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncPointerExitTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncPointerUpTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncRectTransformTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncScrollTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncSelectTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncStartTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncSubmitTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncTransformChangedTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncTrigger2DTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncTriggerBase.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncTriggerExtensions.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncTriggerTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncUpdateSelectedTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncUpdateTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/Triggers/AsyncVisibleTrigger.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTask.Bridge.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTask.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTask.Delay.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTask.Factory.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTask.Run.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTask.Threading.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTask.WaitUntil.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTask.WhenAll.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTask.WhenAll.Generated.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTask.WhenAny.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTask.WhenAny.Generated.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTaskCompletionSource.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTaskExtensions.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTaskExtensions.Shorthand.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTaskScheduler.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UniTaskVoid.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UnityAsyncExtensions.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UnityAsyncExtensions.Jobs.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UnityAsyncExtensions.uGUI.cs
+-i:F:/UnityProject/WizardDefense/Assets/Plugins/UniRx/Scripts/Async/UnityEqualityComparer.cs
 -v:0
