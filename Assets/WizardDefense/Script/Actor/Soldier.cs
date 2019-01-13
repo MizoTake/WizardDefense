@@ -56,7 +56,6 @@ namespace WizardDefense
 				{
 					target.Damage (_parameter.ATK);
 				}
-				Debug.Log (targetDis);
 			}
 
 			// debug
@@ -75,6 +74,7 @@ namespace WizardDefense
 			{
 				Destroy (this.gameObject);
 			}
+			Debug.Log (_parameter.HP);
 		}
 	}
 

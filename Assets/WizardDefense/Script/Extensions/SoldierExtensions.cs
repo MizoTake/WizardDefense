@@ -16,7 +16,7 @@ namespace WizardDefense
                 var disX = Mathf.Abs (_.transform.position.x - from.transform.position.x);
                 var disZ = Mathf.Abs (_.transform.position.z - from.transform.position.z);
                 var distance = Mathf.Sqrt (disX * disX + disZ * disZ);
-                result = (distance < minDistance && _.BelongToCastle != from.BelongToCastle) ? _ : result;
+                result = (distance < minDistance && _.BelongToCastle.Side != from.BelongToCastle.Side && _.Parameter.HP > 0) ? _ : result;
             });
             return result;
         }

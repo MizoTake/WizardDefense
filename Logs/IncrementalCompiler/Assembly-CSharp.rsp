@@ -476,6 +476,7 @@
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/King.cs
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/Platoon.cs
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Actor/Soldier.cs
+-i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Environment/Const.cs
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Extensions/SoldierExtensions.cs
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Installer/GameInstaller.cs
 -i:F:/UnityProject/WizardDefense/Assets/WizardDefense/Script/Interface/IControllable.cs

@@ -17,8 +17,10 @@ namespace WizardDefense
 		[Inject (Id = "EnemyCastle")]
 		private Castle _enemyCastle;
 
-        [SerializeField]
-        private Color _color;
+		[SerializeField]
+		private Side _side;
+		[SerializeField]
+		private Color _color;
 
 		[SerializeField]
 		private double _sortieInterval;
@@ -35,12 +37,23 @@ namespace WizardDefense
 			NextPlatoon ();
 
 			Bind ();
+
+			switch (_side)
+			{
+				case Side.Player:
+					_playerCastle.Side = _side;
+					break;
+				case Side.Enemy:
+					_enemyCastle.Side = _side;
+					break;
+			}
 		}
 
 		private void Bind ()
 		{
 			Observable
 				.Interval (TimeSpan.FromSeconds (_sortieInterval))
+				.Take (5) // 処理落ちしないため ECS化とかで最適化を図っていく
 				.Subscribe (_ =>
 				{
 					if (_current.Point.Length == _currentFormationIndex)
@@ -51,11 +64,27 @@ namespace WizardDefense
 					{
 						var pos = Vector3.zero.RandomX (-10, 10) + Vector3.zero.RandomZ (-10, 10);
 						pos.y = 1f;
-						_playerCastle.Sortie (_current, _currentFormationIndex, _platoons.Last (), pos, color: _color);
+						switch (_side)
+						{
+							case Side.Player:
+								_playerCastle.Sortie (_current, _currentFormationIndex, _platoons.Last (), pos, color : _color);
+								break;
+							case Side.Enemy:
+								_enemyCastle.Sortie (_current, _currentFormationIndex, _platoons.Last (), pos, color : _color);
+								break;
+						}
 					}
 					else
 					{
-						_playerCastle.Sortie (_current, _currentFormationIndex, _platoons.Last (), color: _color);
+						switch (_side)
+						{
+							case Side.Player:
+								_playerCastle.Sortie (_current, _currentFormationIndex, _platoons.Last (), color : _color);
+								break;
+							case Side.Enemy:
+								_enemyCastle.Sortie (_current, _currentFormationIndex, _platoons.Last (), color : _color);
+								break;
+						}
 					}
 					_currentFormationIndex += 1;
 				})
