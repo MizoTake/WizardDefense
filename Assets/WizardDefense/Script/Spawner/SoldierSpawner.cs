@@ -16,9 +16,11 @@ namespace WizardDefense
             _soldierFactory = soldierFactory;
         }
 
-        public Soldier Instantiate ()
+        public Soldier Instantiate (Vector3 position, Quaternion rotation)
         {
             var soldier = _soldierFactory.Create ();
+            soldier.transform.position = position;
+            soldier.transform.rotation = rotation;
             _instancedSoldiers.Add (soldier);
             return soldier;
         }

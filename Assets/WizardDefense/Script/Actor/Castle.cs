@@ -35,7 +35,7 @@ namespace WizardDefense
 		public void Sortie (Formation data, int index, Platoon platoon, Vector3? leaderPosition = null, Color? color = null)
 		{
 			// var soldier = Instantiate (_sortieObjects.RandomValue (), _instancePoint.position, Quaternion.identity);
-			var soldier = _spawner.Instantiate ();
+			var soldier = _spawner.Instantiate (_instancePoint.position, Quaternion.identity);
 			if (color != null)
 			{
 				//TODO: Debug処理 本番では別の方法を考える

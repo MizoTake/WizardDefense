@@ -51,7 +51,7 @@ namespace WizardDefense
 				_nextPosition = target.transform.position;
 				var targetDis = Vector3.Distance (transform.position, target.transform.position);
 				// TODO: 後で定数化
-				if (targetDis <= 100)
+				if (targetDis <= 3)
 				{
 					target.Damage (_parameter.ATK);
 				}

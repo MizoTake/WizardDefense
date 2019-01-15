@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e025bd257c2d5244bc91b389d17f605, type: 3}
   m_Name: SoldierSettings
   m_EditorClassIdentifier: 
-  HP: 10
+  HP: 100
   ATK: 1
+  atkInterval: 0
   SearchDistance: 0
   Type: 0
