@@ -60,9 +60,19 @@ namespace WizardDefense
 
 		private void Bind ()
 		{
+			Soldier target = null;
 			this.UpdateAsObservable ()
-				.Select (_ => BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance))
-				.Where (x => x != null)
+				.Select (_ =>
+				{
+					if (target != null)
+					{
+						return target;
+					}
+					return BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance);
+				})
+				// .Select (_ => BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance))
+				// .Where (x => x != null)
+				// .Scan ((before, current) => )
 				.Subscribe (x =>
 				{
 					_nextPosition = x.transform.position;
@@ -71,6 +81,7 @@ namespace WizardDefense
 					{
 						x.Damage (_parameter.ATK);
 					}
+					target = (x.Parameter.HP > 0) ? x : null;
 				})
 				.AddTo (this);
 
