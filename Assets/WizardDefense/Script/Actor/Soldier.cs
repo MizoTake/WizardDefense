@@ -62,17 +62,8 @@ namespace WizardDefense
 		{
 			Soldier target = null;
 			this.UpdateAsObservable ()
-				.Select (_ =>
-				{
-					if (target != null)
-					{
-						return target;
-					}
-					return BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance);
-				})
-				// .Select (_ => BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance))
+				.Select (_ => (target != null) ? target : BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance))
 				.Where (x => x != null)
-				// .Scan ((before, current) => )
 				.Subscribe (x =>
 				{
 					_nextPosition = x.transform.position;
