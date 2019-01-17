@@ -8,8 +8,9 @@ namespace WizardDefense
 	{
 		public int HP;
 		public int ATK;
-		public float atkInterval;
+		public float ATKInterval;
 		public float SearchDistance;
+		public float VisibilityDistance;
 		public SearchType Type;
 
 		public enum SearchType

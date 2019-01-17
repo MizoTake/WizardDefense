@@ -53,7 +53,7 @@ namespace WizardDefense
 		{
 			Observable
 				.Interval (TimeSpan.FromSeconds (_sortieInterval))
-				.Take (5) // 処理落ちしないため ECS化とかで最適化を図っていく
+				// .Take (5) // 処理落ちしないため ECS化とかで最適化を図っていく
 				.Subscribe (_ =>
 				{
 					if (_current.Point.Length == _currentFormationIndex)
@@ -62,6 +62,7 @@ namespace WizardDefense
 					}
 					if (_currentFormationIndex == 0)
 					{
+						// TODO: 変数化
 						var pos = Vector3.zero.RandomX (-10, 10) + Vector3.zero.RandomZ (-10, 10);
 						pos.y = 1f;
 						switch (_side)

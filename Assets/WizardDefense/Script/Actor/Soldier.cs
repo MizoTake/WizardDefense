@@ -1,6 +1,10 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
+using UniRx;
+using UniRx.Triggers;
 using UnityEngine;
 using UnityEngine.AI;
 using Zenject;
@@ -22,6 +26,7 @@ namespace WizardDefense
 		private Vector3 _releativePos;
 		private Transform _trackingLeader = null;
 		private Vector3 _nextPosition;
+		private ReactiveProperty<Soldier> _target = new ReactiveProperty<Soldier> (null);
 
 		public Castle BelongToCastle { get; set; }
 		public MeshRenderer Renderer { get { return _renderer; } }
@@ -31,6 +36,8 @@ namespace WizardDefense
 		{
 			_agent = GetComponent<NavMeshAgent> ();
 			_parameter = Instantiate (_masterParameter);
+
+			Bind ();
 		}
 
 		// Update is called once per frame
@@ -45,20 +52,40 @@ namespace WizardDefense
 			{
 				_agent.destination = _nextPosition + _releativePos;
 			}
-			var target = BelongToCastle.Soldiers.NearTarget (from: this);
-			if (target)
-			{
-				_nextPosition = target.transform.position;
-				var targetDis = Vector3.Distance (transform.position, target.transform.position);
-				// TODO: 後で定数化
-				if (targetDis <= 3)
-				{
-					target.Damage (_parameter.ATK);
-				}
-			}
+			// _target.Value = BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance);
 
 			// debug
 			_previewHP.text = _parameter.HP.ToString ();
+		}
+
+		private void Bind ()
+		{
+			this.UpdateAsObservable ()
+				.Select (_ => BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance))
+				.Where (x => x != null)
+				.Subscribe (x =>
+				{
+					_nextPosition = x.transform.position;
+					var targetDis = Vector3.Distance (transform.position, x.transform.position);
+					if (targetDis <= _parameter.VisibilityDistance)
+					{
+						x.Damage (_parameter.ATK);
+					}
+				})
+				.AddTo (this);
+
+			_target
+				.Where (x => x != null)
+				.Subscribe (x =>
+				{
+					_nextPosition = x.transform.position;
+					var targetDis = Vector3.Distance (transform.position, x.transform.position);
+					if (targetDis <= _parameter.VisibilityDistance)
+					{
+						x.Damage (_parameter.ATK);
+					}
+				})
+				.AddTo (this);
 		}
 
 		public class Factory : PlaceholderFactory<Soldier> { }

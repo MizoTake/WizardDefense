@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 100
   ATK: 1
-  atkInterval: 0
-  SearchDistance: 0
+  ATKInterval: 0
+  SearchDistance: 100
+  VisibilityDistance: 4
   Type: 0
