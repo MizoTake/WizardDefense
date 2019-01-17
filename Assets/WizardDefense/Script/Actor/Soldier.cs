@@ -26,7 +26,6 @@ namespace WizardDefense
 		private Vector3 _releativePos;
 		private Transform _trackingLeader = null;
 		private Vector3 _nextPosition;
-		private ReactiveProperty<Soldier> _target = new ReactiveProperty<Soldier> (null);
 
 		public Castle BelongToCastle { get; set; }
 		public MeshRenderer Renderer { get { return _renderer; } }
@@ -52,7 +51,6 @@ namespace WizardDefense
 			{
 				_agent.destination = _nextPosition + _releativePos;
 			}
-			// _target.Value = BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance);
 
 			// debug
 			_previewHP.text = _parameter.HP.ToString ();
@@ -73,19 +71,6 @@ namespace WizardDefense
 						x.Damage (_parameter.ATK);
 					}
 					target = (x.Parameter.HP > 0) ? x : null;
-				})
-				.AddTo (this);
-
-			_target
-				.Where (x => x != null)
-				.Subscribe (x =>
-				{
-					_nextPosition = x.transform.position;
-					var targetDis = Vector3.Distance (transform.position, x.transform.position);
-					if (targetDis <= _parameter.VisibilityDistance)
-					{
-						x.Damage (_parameter.ATK);
-					}
 				})
 				.AddTo (this);
 		}
