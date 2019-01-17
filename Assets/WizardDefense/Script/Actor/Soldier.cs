@@ -71,7 +71,7 @@ namespace WizardDefense
 					return BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance);
 				})
 				// .Select (_ => BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance))
-				// .Where (x => x != null)
+				.Where (x => x != null)
 				// .Scan ((before, current) => )
 				.Subscribe (x =>
 				{
