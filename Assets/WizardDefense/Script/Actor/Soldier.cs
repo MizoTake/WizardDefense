@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using TMPro;
 using UniRx;
 using UniRx.Triggers;
@@ -61,6 +62,15 @@ namespace WizardDefense
 			Soldier target = null;
 			this.UpdateAsObservable ()
 				.Select (_ => (target != null) ? target : BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance))
+				.Scan ((before, current) =>
+				{
+					if (before != current)
+					{
+						return current;
+					}
+					// TODO: ターゲットが同じで攻撃インターバルを満たしてないならnull
+					return null;
+				})
 				.Where (x => x != null)
 				.Subscribe (x =>
 				{
