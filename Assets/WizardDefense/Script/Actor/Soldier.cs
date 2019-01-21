@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using TMPro;
 using UniRx;
+using UniRx.Async;
 using UniRx.Triggers;
 using UnityEngine;
 using UnityEngine.AI;
@@ -43,16 +44,6 @@ namespace WizardDefense
 		// Update is called once per frame
 		void Update ()
 		{
-			// リーダーじゃない時
-			if (_trackingLeader)
-			{
-				_agent.destination = _trackingLeader.transform.position + _releativePos;
-			}
-			else
-			{
-				_agent.destination = _nextPosition + _releativePos;
-			}
-
 			// debug
 			_previewHP.text = _parameter.HP.ToString ();
 		}
@@ -60,30 +51,41 @@ namespace WizardDefense
 		private void Bind ()
 		{
 			Soldier target = null;
+			var delay = Delay ();
 			this.UpdateAsObservable ()
-				.Select (_ => (target != null) ? target : BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance))
-				.Scan ((before, current) =>
-				{
-					if (before != current)
-					{
-						return current;
-					}
-					// TODO: ターゲットが同じで攻撃インターバルを満たしてないならnull
-					return null;
-				})
-				.Where (x => x != null)
+				.Select (_ => (target) ? target : BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance))
+				.Where (x => x)
 				.Subscribe (x =>
 				{
 					_nextPosition = x.transform.position;
+					target = (x.Parameter.HP > 0) ? x : null;
+					// リーダーじゃない時
+					if (_trackingLeader)
+					{
+						_agent.destination = _trackingLeader.transform.position + _releativePos;
+					}
+					else
+					{
+						_agent.destination = _nextPosition + _releativePos;
+					}
+				})
+				.AddTo (this);
+
+			Observable.Interval (TimeSpan.FromSeconds (_parameter.ATKInterval))
+				.Where (_ => target)
+				.Select (_ => target)
+				.Subscribe (x =>
+				{
 					var targetDis = Vector3.Distance (transform.position, x.transform.position);
 					if (targetDis <= _parameter.VisibilityDistance)
 					{
 						x.Damage (_parameter.ATK);
 					}
-					target = (x.Parameter.HP > 0) ? x : null;
 				})
 				.AddTo (this);
 		}
+
+		private async UniTask<int> Delay () => await UniTask.DelayFrame (30);
 
 		public class Factory : PlaceholderFactory<Soldier> { }
 	}
