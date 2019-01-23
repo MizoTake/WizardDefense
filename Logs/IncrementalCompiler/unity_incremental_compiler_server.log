@@ -11,3 +11,23 @@
  (0,0): [01/23/2019 01:48:39.808 午後] Assembly-CSharp-Editor.dll compilation finished in 137ms  source files re-parsed: 9 metadata reloaded: 20
  (0,0): [01/23/2019 01:48:39.821 午後] Assembly-CSharp-Editor.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 3320
  (0,0): [01/23/2019 01:51:12.936 午後] Compiler cache size is now 19.73 MB
+ (0,0): [01/23/2019 01:54:52.719 午後] Assembly-CSharp.dll compiling...
+ (0,0): [01/23/2019 01:54:53.120 午後] Assembly-CSharp.dll: emitting IL to : F:\UnityProject\WizardDefense\Temp\Assembly-CSharp.dll
+ (0,0): [01/23/2019 01:54:53.264 午後] Assembly-CSharp.dll compilation finished in 544ms  source files re-parsed: 5 metadata reloaded: 0
+ (0,0): [01/23/2019 01:54:53.276 午後] Assembly-CSharp.dll: compilation was cached, 5 file(s) were found to have changed. Caller PID: 3320
+ (0,0): [01/23/2019 01:54:53.287 午後] Assembly-CSharp.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 3320
+ (0,0): [01/23/2019 01:54:53.812 午後] Assembly-CSharp-Editor.dll compiling...
+ (0,0): [01/23/2019 01:54:53.860 午後] Assembly-CSharp-Editor.dll: emitting IL to : F:\UnityProject\WizardDefense\Temp\Assembly-CSharp-Editor.dll
+ (0,0): [01/23/2019 01:54:53.925 午後] Assembly-CSharp-Editor.dll compilation finished in 113ms  source files re-parsed: 0 metadata reloaded: 1
+ (0,0): [01/23/2019 01:54:53.937 午後] Assembly-CSharp-Editor.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 3320
+ (0,0): [01/23/2019 01:54:53.949 午後] Assembly-CSharp-Editor.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 3320
+ (0,0): [01/23/2019 01:56:06.721 午後] Assembly-CSharp.dll compiling...
+ (0,0): [01/23/2019 01:56:07.129 午後] Assembly-CSharp.dll: emitting IL to : F:\UnityProject\WizardDefense\Temp\Assembly-CSharp.dll
+ (0,0): [01/23/2019 01:56:07.259 午後] Assembly-CSharp.dll compilation finished in 538ms  source files re-parsed: 5 metadata reloaded: 0
+ (0,0): [01/23/2019 01:56:07.271 午後] Assembly-CSharp.dll: compilation was cached, 5 file(s) were found to have changed. Caller PID: 3320
+ (0,0): [01/23/2019 01:56:07.282 午後] Assembly-CSharp.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 3320
+ (0,0): [01/23/2019 01:56:07.965 午後] Assembly-CSharp-Editor.dll compiling...
+ (0,0): [01/23/2019 01:56:08.005 午後] Assembly-CSharp-Editor.dll: emitting IL to : F:\UnityProject\WizardDefense\Temp\Assembly-CSharp-Editor.dll
+ (0,0): [01/23/2019 01:56:08.064 午後] Assembly-CSharp-Editor.dll compilation finished in 99ms  source files re-parsed: 0 metadata reloaded: 1
+ (0,0): [01/23/2019 01:56:08.076 午後] Assembly-CSharp-Editor.dll: compilation was cached, 0 file(s) were found to have changed. Caller PID: 3320
+ (0,0): [01/23/2019 01:56:08.087 午後] Assembly-CSharp-Editor.dll: session status updated to IncrementalCompilationStatus.Finished for Caller PID: 3320

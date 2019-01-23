@@ -64,13 +64,12 @@ namespace WizardDefense
 
 			Observable.Interval (TimeSpan.FromSeconds (_parameter.ATKInterval))
 				.Where (_ => target)
-				.Select (_ => target)
-				.Subscribe (x =>
+				.Subscribe (_ =>
 				{
-					var targetDis = Vector3.Distance (transform.position, x.transform.position);
+					var targetDis = Vector3.Distance (transform.position, target.transform.position);
 					if (targetDis <= _parameter.VisibilityDistance)
 					{
-						x.Damage (_parameter.ATK);
+						target.Damage (_parameter.ATK);
 					}
 				})
 				.AddTo (this);
@@ -114,7 +113,7 @@ namespace WizardDefense
 			}
 			else
 			{
-				_chaseTarget = platoon.Member[0];
+				_chaseTarget = platoon.Member.First ();
 				_nextPosition = platoon.LeaderPosition;
 			}
 		}
