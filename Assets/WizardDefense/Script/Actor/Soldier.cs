@@ -26,7 +26,7 @@ namespace WizardDefense
 		private SoldierSettings _parameter;
 		private NavMeshAgent _agent;
 		private Vector3 _releativePos;
-		private Transform _trackingLeader = null;
+		private Transform _chaseTarget = null;
 		private Vector3 _nextPosition;
 
 		public Castle BelongToCastle { get; set; }
@@ -51,7 +51,6 @@ namespace WizardDefense
 		private void Bind ()
 		{
 			Soldier target = null;
-			var delay = Delay ();
 			this.UpdateAsObservable ()
 				.Select (_ => (target) ? target : BelongToCastle.Soldiers.NearTarget (from: this, searchDistance: _parameter.SearchDistance))
 				.Where (x => x)
@@ -59,15 +58,7 @@ namespace WizardDefense
 				{
 					_nextPosition = x.transform.position;
 					target = (x.Parameter.HP > 0) ? x : null;
-					// リーダーじゃない時
-					if (_trackingLeader)
-					{
-						_agent.destination = _trackingLeader.transform.position + _releativePos;
-					}
-					else
-					{
-						_agent.destination = _nextPosition + _releativePos;
-					}
+					_agent.destination = (_chaseTarget) ? _chaseTarget.transform.position + _releativePos : _nextPosition + _releativePos;
 				})
 				.AddTo (this);
 
@@ -84,8 +75,6 @@ namespace WizardDefense
 				})
 				.AddTo (this);
 		}
-
-		private async UniTask<int> Delay () => await UniTask.DelayFrame (30);
 
 		public class Factory : PlaceholderFactory<Soldier> { }
 	}
@@ -125,7 +114,7 @@ namespace WizardDefense
 			}
 			else
 			{
-				_trackingLeader = platoon.Member[0];
+				_chaseTarget = platoon.Member[0];
 				_nextPosition = platoon.LeaderPosition;
 			}
 		}

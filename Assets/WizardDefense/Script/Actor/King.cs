@@ -53,7 +53,6 @@ namespace WizardDefense
 		{
 			Observable
 				.Interval (TimeSpan.FromSeconds (_sortieInterval))
-				// .Take (5) // 処理落ちしないため ECS化とかで最適化を図っていく
 				.Subscribe (_ =>
 				{
 					if (_current.Point.Length == _currentFormationIndex)

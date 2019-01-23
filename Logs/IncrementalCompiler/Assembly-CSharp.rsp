@@ -362,7 +362,6 @@
 -i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Data/SoundParameter.cs
 -i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/CollectionExtension.cs
 -i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/EnumExtensions.cs
--i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/ObservableExtensions.cs
 -i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/StringExtension.cs
 -i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/TransformExtensions.cs
 -i:F:/UnityProject/WizardDefense/Assets/MomijiFramework/Scripts/Extensions/Vector3Extensions.cs
