@@ -5,9 +5,9 @@ jobs:
       - image: koalaman/shellcheck-alpine:stable
     steps:
       - checkout
-      - restore_cache:
-          key: docker-{{ checksum ".circleci/config.yml" }}
-          paths: ~/caches/images.tar
+      # - restore_cache:
+          # key: docker-{{ checksum ".circleci/config.yml" }}
+          # paths: ~/caches/images.tar
       - run:
           name: Check cache file, if not exists then pull images and generate cache.
           command: |
